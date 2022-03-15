@@ -1,0 +1,28 @@
+.sobre-container {
+    height: 100%;
+    align-self: center;
+    position: relative;
+}
+.hero-two-border {
+    // margin-top: 0px;
+    margin-left: 1rem;
+    background-color: #efece6;
+    width: 95%;
+    height: 80%;
+    border-radius: 10px;
+    border: 4px solid #707070;
+
+    .parraffs {
+        margin-top: 7rem;
+        margin-bottom: 5rem;
+        margin-left: 5rem;
+        width: 70%;
+        .hero-two-parraf {
+            font: {
+                weight: bold;
+                size: 1.6em;
+            }
+            color: #707070;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.container-buttons {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+button {
+    width: 11rem;
+    height: 2.5rem;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: 2px solid #707070;
+    border-radius: 5px;
+    color: #707070;
+    background-color: #efece6;
+    box-shadow: 3px 3px #efece6, 1px 4px #707070, 5px 1px #707070,
+        5px 5px #707070;
+    transition: 100ms all ease-in-out;
+}
+
+button:hover {
+    background-color: #ebe7e0;
+
+    cursor: pointer;
+    box-shadow: none;
+    box-shadow: 0 0 #efece6, 0 0 #707070, 0 0 #707070, 0 0 #707070;
+    margin-left: 4px;
+    margin-top: 4px;
+}

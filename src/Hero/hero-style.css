@@ -1,0 +1,118 @@
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+a:hover {
+    font-size: 1.4rem;
+}
+
+.container-hero {
+    margin-top: 40px;
+    height: 85%;
+    width: 100%;
+    grid-column: 3/11;
+    align-self: center;
+    position: relative;
+}
+
+.ventana {
+    height: 98%;
+    width: 98%;
+    position: absolute;
+    background-color: #efece6;
+    border-radius: 10px;
+    border: 3px solid #707070;
+    z-index: 2;
+    overflow: hidden;
+}
+.ventana1 {
+    height: 95%;
+}
+
+.ventana2 {
+    z-index: 0;
+    position: absolute;
+    width: 98%;
+    height: 95%;
+    left: 20px;
+    top: 20px;
+}
+.ventana3 {
+    z-index: 1;
+    position: absolute;
+    width: 98%;
+    height: 95%;
+    left: 10px;
+    top: 10px;
+}
+
+.linea {
+    margin-top: 0px;
+    border: 1px solid #707070;
+}
+
+.icons {
+    text-align: end;
+    margin-bottom: 0;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.icons .close-button {
+    width: 25px;
+}
+
+.icons .line-minimize {
+    margin-right: 7px;
+    margin-bottom: 4px;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    /* background-color: sandybrown; */
+}
+
+.contenido .texto {
+    margin-left: -30px;
+    /* background-color: tomato; */
+}
+
+.contenido .texto h4 {
+    font-size: 2.5em;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.2em;
+}
+.contenido .texto h1 {
+    font-size: 4.5em;
+    padding: 0;
+    margin: 0;
+}
+.contenido .texto h6 {
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+.contenido .foto-perfil {
+    /* background-color: aqua; */
+    justify-self: right;
+    transform: scale(0.9);
+}
+
+.contenido .texto .contacto-tittle {
+    font-weight: bold;
+    font-size: 5rem;
+    margin-top: -80px;
+    margin-left: 6rem;
+    margin-bottom: 50px;
+}
+
+.contenido .texto .contacto-datos {
+    font-size: 1.3rem;
+}

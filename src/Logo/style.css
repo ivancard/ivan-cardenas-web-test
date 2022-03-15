@@ -1,0 +1,8 @@
+.logo-container {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-image: url(../img/logo.svg);
+    grid-column: 3/4;
+    transform: scale(0.8);
+}

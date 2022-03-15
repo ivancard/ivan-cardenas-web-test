@@ -1,0 +1,15 @@
+.proyects-conteiner {
+    margin-top: 150px;
+    margin-bottom: 100px;
+
+    .item-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        margin: 0 auto;
+        height: 500px;
+        width: 70%;
+        justify-items: center;
+        align-items: center;
+    }
+}

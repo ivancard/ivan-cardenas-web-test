@@ -1,0 +1,26 @@
+.container-About-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    background-image: url(../img/trama.svg);
+    height: 700px;
+    background-size: 150px;
+    background-repeat: repeat;
+}
+.about-me-gridPP {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    width: 70%;
+    height: 80%;
+}
+.about-me-gridPP .about-me-descripcion {
+    grid-column: 1/4;
+    align-self: center;
+}
+
+.about-me-gridPP .about-me-skills {
+    grid-column: 4/6;
+    position: relative;
+}

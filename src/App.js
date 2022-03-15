@@ -1,25 +1,46 @@
-import logo from './logo.svg';
+import AboutMe from './AboutMe';
 import './App.css';
-
+import Button from './Button';
+import Contacto from './Contacto';
+import Hero from './Hero';
+import Logo from './Logo';
+import Proyectos from './Proyectos';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <nav>
+                <Logo className="nav-logo" />
+                <ul className="nav-list">
+                    <li>
+                        <Button name="INICIO" />
+                    </li>
+                    <li>
+                        <Button name="SOBRE MI" />
+                    </li>
+                    <li>
+                        <Button name="MIS PROYECTOS" />
+                    </li>
+                    <li>
+                        <Button name="CONTACTO" />
+                    </li>
+                </ul>
+            </nav>
+            <header className="app-header">
+                <Hero
+                    windowW="98%"
+                    h4="Hola, mi nombre es"
+                    h1="Ivan Cardenas"
+                    h6="Desarrollador de Software"
+                    ph={true}
+                    fColumn={false}
+                />
+            </header>
+
+            <AboutMe />
+            <Proyectos />
+            <Contacto />
+        </div>
+    );
 }
 
 export default App;
