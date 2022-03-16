@@ -1,11 +1,6 @@
 a {
     color: inherit;
     text-decoration: none;
-    transition: all 300ms ease-in-out;
-}
-
-a:hover {
-    font-size: 1.4rem;
 }
 
 .container-hero {

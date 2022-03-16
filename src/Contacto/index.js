@@ -5,7 +5,7 @@ export default function Contacto() {
     return (
         <div className="contacto-container">
             <Hero
-                windowW="40%"
+                windowW="50%"
                 ph={false}
                 fColumn={true}
                 p1="Contacto"

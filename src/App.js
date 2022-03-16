@@ -2,6 +2,7 @@ import AboutMe from './AboutMe';
 import './App.css';
 import Button from './Button';
 import Contacto from './Contacto';
+import Footer from './Footer';
 import Hero from './Hero';
 import Logo from './Logo';
 import Proyectos from './Proyectos';
@@ -39,6 +40,7 @@ function App() {
             <AboutMe />
             <Proyectos />
             <Contacto />
+            <Footer></Footer>
         </div>
     );
 }
