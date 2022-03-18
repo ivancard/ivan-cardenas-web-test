@@ -25,7 +25,7 @@ export default function Hero(props) {
                             transform="translate(6.431 1.5)"
                             fill="none"
                             stroke="#707070"
-                            stroke-width="3"
+                            strokeWidth="3"
                         />
                     </svg>
                     <svg
@@ -52,11 +52,7 @@ export default function Hero(props) {
                             <p className="contacto-tittle">{props.p1}</p>
                         )}
                         {props.p2 && (
-                            <p className="contacto-datos">
-                                <a href="http://google.com" target="_blank">
-                                    {props.p2}
-                                </a>
-                            </p>
+                            <p className="contacto-datos">{props.p2}</p>
                         )}
                         {props.p3 && (
                             <p className="contacto-datos">

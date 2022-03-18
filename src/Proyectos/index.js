@@ -4,15 +4,17 @@ import './proyectos.scss';
 
 import proyecto1 from '../img/proyecto1.jpg';
 import proyecto2 from '../img/proyecto2.jpg';
+import proyecto3 from '../img/proyecto3.jpg';
 
-export default function Proyectos() {
+export default function Proyectos({ setModal, setModal2, setModal3 }) {
     return (
         <div className="proyects-conteiner">
             <Tittle tittle="MIS PROYECTOS" size="3em" abs={false} />
             <div className="item-container">
-                <ProyectoItem image={proyecto1} />
-                <ProyectoItem image={proyecto2} />
-                <ProyectoItem image={proyecto1} />
+                <ProyectoItem image={proyecto1} setModal={setModal} />
+                <ProyectoItem image={proyecto2} setModal={setModal2} />
+                <ProyectoItem image={proyecto3} setModal={setModal3} />
+                {/* <button onClick={() => console.log(setModal)}>Holaa</button> */}
             </div>
             <p style={{ textAlign: 'center' }}>
                 <a href="https://github.com/ivancard" target="_blank">
