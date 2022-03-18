@@ -228,7 +228,7 @@ const Contenido = styled.div`
     flex-direction: column;
     align-items: center;
     padding-bottom: 50px;
-    max-height: 700px;
+    max-height: 750px;
     h1 {
         font-size: 42px;
         font-weight: 700;
