@@ -28,3 +28,10 @@ button:hover {
     margin-left: 4px;
     margin-top: 4px;
 }
+
+@media (max-width: 855px) {
+    button {
+        width: 5rem;
+        font-size: 0.8rem;
+    }
+}

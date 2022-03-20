@@ -32,3 +32,20 @@ nav {
     grid-template-columns: repeat(12, minmax(50px, 1fr));
     grid-template-rows: 700px;
 }
+
+@media (max-width: 855px) {
+    .nav-list {
+        grid-column: 5/12;
+    }
+    .app-header {
+        grid-template-rows: 500px;
+    }
+}
+@media (max-width: 400px) {
+    .nav-list {
+        display: none;
+    }
+    .app-header {
+        grid-template-rows: 500px;
+    }
+} ;

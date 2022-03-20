@@ -6,9 +6,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-self: center;
+    align-self: center;
 
     img {
         transform: scale(0.8);
+        @media (max-width: 855px) {
+            transform: scale(0.5);
+        }
     }
     :hover {
         cursor: pointer;
@@ -20,5 +25,10 @@
         color: #efece6;
         padding: 0.5rem 1rem;
         border-radius: 5px;
+    }
+    @media (max-width: 855px) {
+        margin: 5px;
+        width: 60px;
+        height: 60px;
     }
 }

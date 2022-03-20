@@ -15,3 +15,10 @@ $black: #707070;
     left: 0;
     box-shadow: 5px 5px $bg, 8px 8px $black, 4px 8px $black, 8px 4px $black;
 }
+
+@media (max-width: 855px) {
+    .tittle-text {
+        font-size: 1.3em !important;
+        padding: 1rem 4rem;
+    }
+}

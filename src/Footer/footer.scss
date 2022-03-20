@@ -9,4 +9,7 @@
     .footer-texto {
         color: #efece6;
     }
+    @media (max-width: 855px) {
+        margin-top: 2rem;
+    }
 }

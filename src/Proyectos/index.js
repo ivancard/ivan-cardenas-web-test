@@ -14,9 +14,8 @@ export default function Proyectos({ setModal, setModal2, setModal3 }) {
                 <ProyectoItem image={proyecto1} setModal={setModal} />
                 <ProyectoItem image={proyecto2} setModal={setModal2} />
                 <ProyectoItem image={proyecto3} setModal={setModal3} />
-                {/* <button onClick={() => console.log(setModal)}>Holaa</button> */}
             </div>
-            <p style={{ textAlign: 'center' }}>
+            <p style={{ textAlign: 'center' }} className="masProyectos">
                 <a href="https://github.com/ivancard" target="_blank">
                     Más proyectos en mi GitHub
                 </a>

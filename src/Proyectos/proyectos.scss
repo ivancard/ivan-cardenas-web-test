@@ -11,5 +11,24 @@
         width: 70%;
         justify-items: center;
         align-items: center;
+
+        @media (max-width: 855px) {
+            margin-top: 50px;
+        }
+    }
+
+    @media (max-width: 855px) {
+        margin-top: 100px;
+        margin-bottom: 0px;
+        .item-container {
+            height: 200px;
+            width: 85%;
+            gap: 20px;
+        }
+    }
+    .masProyectos {
+        @media (max-width: 855px) {
+            margin-top: 50px;
+        }
     }
 }

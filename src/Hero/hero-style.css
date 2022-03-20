@@ -111,3 +111,61 @@ a {
 .contenido .texto .contacto-datos {
     font-size: 1.3rem;
 }
+
+@media (max-width: 855px) {
+    .container-hero {
+        grid-column: 2/12;
+        height: 70%;
+        margin-top: 0px;
+    }
+    .contenido .texto h4 {
+        font-size: 1.5em;
+    }
+    .contenido .foto-perfil {
+        justify-self: right;
+        width: 250px;
+    }
+    .contenido .texto h1 {
+        font-size: 3em;
+        /* padding: 0;
+        margin: 0; */
+    }
+    .contenido .texto h6 {
+        font-size: 1em;
+        /* padding: 0;
+        margin: 0; */
+    }
+    .contenido .texto {
+        margin-left: 0px;
+        /* background-color: tomato; */
+    }
+    .contenido {
+        margin-top: -20px;
+    }
+    .ventana {
+        width: 100% !important;
+    }
+    .contacto-tittle {
+        margin-top: -10px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .container-hero {
+        margin-top: 70px;
+        height: 100%;
+    }
+    .contenido {
+        flex-direction: column-reverse;
+        margin-top: 0px;
+        justify-content: space-around;
+    }
+    .contenido .foto-perfil {
+        width: 230px;
+        margin-bottom: 0;
+    }
+    .contenido .texto {
+        padding: 0;
+        /* margin-top: 230px; */
+    }
+}
