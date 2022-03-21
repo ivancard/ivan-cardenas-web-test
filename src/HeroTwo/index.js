@@ -9,13 +9,13 @@ export default function HeroTwo() {
                 <div className="parraffs">
                     <p className="hero-two-parraf">
                         Soy desarrollador de software enfocado al área web,
-                        tanto back-end como front-end, siendo esta ultima mi
+                        tanto back-end como front-end, siendo esta última mi
                         área de mayor especialidad.
                     </p>
                     <p className="hero-two-parraf">
                         Estudio Ingenieria en informática y realicé muchos
                         cursos en diferentes plataformas. Entre ellas Platzi,
-                        Udemy, Crehana, etc...
+                        Udemy, Crehana, entre otras.
                     </p>
                 </div>
             </div>
