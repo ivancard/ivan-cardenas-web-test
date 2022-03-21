@@ -1,0 +1,33 @@
+$bg: #efece6;
+$black: #707070;
+.contenedor-skills2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    display: none;
+    height: 70%;
+    width: 80%;
+    margin: 0 auto;
+
+    justify-content: center;
+    align-content: center;
+
+    @media (max-width: 400px) {
+        display: grid;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+}
+
+.tituloskills {
+    display: none;
+    background-color: #efece6;
+    padding: 1.5rem 3rem;
+    margin-bottom: 0;
+    border-radius: 10px;
+    border: 3px solid #707070;
+    box-shadow: 5px 5px $bg, 8px 8px $black, 4px 8px $black, 8px 4px $black;
+    @media (max-width: 400px) {
+        display: block;
+    }
+}

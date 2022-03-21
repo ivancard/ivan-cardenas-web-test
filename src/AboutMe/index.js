@@ -3,6 +3,7 @@ import './about-me-style.css';
 import HeroTwo from '../HeroTwo';
 import Tittle from '../Title';
 import SkillsContainer from '../SkillsContainer';
+import SkillsContainer2 from '../SkillsContainer2';
 
 export default function AboutMe() {
     return (
@@ -20,6 +21,7 @@ export default function AboutMe() {
                     <SkillsContainer />
                 </div>
             </div>
+            <SkillsContainer2 />
         </div>
     );
 }

@@ -40,3 +40,27 @@
         margin-top: -25px;
     }
 }
+@media (max-width: 400px) {
+    .container-About-me {
+        margin-top: 90px;
+        background-repeat: repeat;
+        width: 540px !important;
+        height: auto;
+        flex-direction: column;
+    }
+    .about-me-gridPP {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 0.5fr;
+        width: 500px;
+        height: 400px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .about-me-gridPP .about-me-descripcion {
+        grid-row: 1/4;
+        align-self: center;
+    }
+    .about-me-gridPP .about-me-skills {
+        display: none;
+    }
+}

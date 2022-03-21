@@ -15,6 +15,11 @@
         @media (max-width: 855px) {
             margin-top: 50px;
         }
+        @media (max-width: 400px) {
+            margin-top: 80px;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3, 1fr);
+        }
     }
 
     @media (max-width: 855px) {
@@ -26,9 +31,24 @@
             gap: 20px;
         }
     }
+
+    @media (max-width: 400px) {
+        // margin-bottom: 350px;
+        margin-left: 95px;
+        margin-right: -90px;
+        margin-top: 100px;
+        margin-bottom: 90px;
+        height: 700px;
+        width: 100%;
+    }
+
     .masProyectos {
         @media (max-width: 855px) {
             margin-top: 50px;
+        }
+        @media (max-width: 400px) {
+            margin-top: 430px;
+            margin-left: 0;
         }
     }
 }
