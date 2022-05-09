@@ -4,8 +4,8 @@ function Button(prop) {
     const underButton = document.querySelector('.under-button');
 
     return (
-        <div className="container-buttons">
-            <button className="boton-pp">{prop.name}</button>
+        <div className='container-buttons animate__animated animate__fadeIn '>
+            <button className='boton-pp'>{prop.name}</button>
         </div>
     );
 }
