@@ -3,19 +3,14 @@ import React from 'react';
 import './proyectoItem.scss';
 
 export default function ProyectoItem({ setModal, image }) {
-    function mostrar(name) {
-        console.log(`Hola ${name}`);
-    }
     return (
         <React.Fragment>
             <div
-                className="cuadro"
-                style={{ backgroundImage: `url(${image})` }}
-            >
+                className='cuadro'
+                style={{ backgroundImage: `url(${image})` }}>
                 <button
                     onClick={() => setModal(true)}
-                    style={{ marginTop: '230px' }}
-                >
+                    style={{ marginTop: '230px', zIndex: '10' }}>
                     VER
                 </button>
             </div>
