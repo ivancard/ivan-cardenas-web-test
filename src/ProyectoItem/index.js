@@ -19,7 +19,11 @@ export default function ProyectoItem({ setModal, image }) {
                 }}>
                 <button
                     onClick={() => setModal(true)}
-                    style={{ marginTop: '230px', zIndex: '10' }}>
+                    style={{
+                        marginTop: '230px',
+                        zIndex: '10',
+                        marginLeft: '120px',
+                    }}>
                     VER
                 </button>
             </div>
